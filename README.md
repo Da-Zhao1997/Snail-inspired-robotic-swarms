@@ -5,6 +5,7 @@ Data and codes for the work "Snail-inspired robotic swarms: a hybrid connector d
 # Content
 
 Matlab codes for robot geometry paramteric optimization.
+
 Python codes for drawing three risk ratio when snail robot connects to another robot.
 
 # TODO
