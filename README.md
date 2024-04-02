@@ -30,7 +30,7 @@ This file serves as the main optimization script. It calls the fmincon function 
 #### obj.m
 This file defines the objective function that needs to be minimized during the optimization process. You will need to modify this file to calculate the objective function based on the snail robot's geometry parameters.
 
-### Noncon.m
+#### Noncon.m
 This file defines the constraint functions that need to be satisfied during the optimization process. You will need to modify this file to define the constraints based on the snail robot's geometry parameters.
 
 ### Running the Optimization
