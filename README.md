@@ -10,16 +10,16 @@ Data and codes for the work "Snail-inspired robotic swarms: a hybrid connector d
 Before proceeding, make sure you have the following:
 
 1. MATLAB installed on your system.
-2. The files paralI.m, II_opt.m, and obj.m available on your machine.
+2. The files paralI.m, II_opt.m, obj.m, and Noncon.m available on your machine.
 
 ### Getting Started
 To optimize the geometry parameters of the snail robot, follow these steps:
 
 1. Open MATLAB on your system.
-2. Navigate to the directory where you have saved the paralI.m, II_opt.m, and obj.m files.
+2. Navigate to the directory where you have saved the paralI.m, II_opt.m, obj.m, and Noncon.m files.
 
 ### File Descriptions
-The optimization process involves three main files:
+The optimization process involves four main files:
 
 #### paralI.m
 This file contains the definition of the geometry parameters for the snail robot. You will need to modify this file to specify the initial values and bounds for the geometry parameters.
@@ -29,6 +29,9 @@ This file serves as the main optimization script. It calls the fmincon function 
 
 #### obj.m
 This file defines the objective function that needs to be minimized during the optimization process. You will need to modify this file to calculate the objective function based on the snail robot's geometry parameters.
+
+### Noncon.m
+This file defines the constraint functions that need to be satisfied during the optimization process. You will need to modify this file to define the constraints based on the snail robot's geometry parameters.
 
 ### Running the Optimization
 To run the optimization and find the optimal geometry parameters for the snail robot, follow these steps:
